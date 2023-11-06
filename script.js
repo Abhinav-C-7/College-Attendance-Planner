@@ -28,6 +28,6 @@ form.addEventListener('submit', function (event) {
     else{
 
     // Display the result
-    S
+    
     resultElement.innerHTML = `You have to attend ${required_class} more classes to reach 75% attendance`;
 }});
