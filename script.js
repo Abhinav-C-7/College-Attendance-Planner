@@ -19,8 +19,15 @@ form.addEventListener('submit', function (event) {
     }
 
     const required_class = clsPresent - old_present;
+    const resultElement = document.getElementById('result');
+
+    if(required_class === 0 )
+    {
+        resultElement.innerHTML = 'You already have above 75%  attendance';
+    }
+    else{
 
     // Display the result
-    const resultElement = document.getElementById('result');
-    resultElement.innerHTML = `You have to attend ${required_class} more classes`;
-});
+    S
+    resultElement.innerHTML = `You have to attend ${required_class} more classes to reach 75% attendance`;
+}});
